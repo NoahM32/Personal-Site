@@ -4,7 +4,7 @@ module.exports = {
     mongoDB: "mongodb://test:test@ds023455.mlab.com:23455/ticket-price-interpreter",
     createUserToken : "This is a meme and a half!",
     appSecret : "This is also a meme and a half!",
-    port: 3000,
+    port: 80,
     personalApiPaths : {
         models: {
             user : path.resolve('./Personal-API/models/user.js'),
