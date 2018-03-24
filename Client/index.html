@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Noah Meislik</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" media="screen" href="css/style.css">
+        
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
+        <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Contrail One', cursive;
+        }
+        
+        body {
+        background-color: #232323;
+        }
+        </style>
+        
+        <audio volume="0.5" autoplay>
+            <source src="resources/audio/ttln.mp3" type="audio/mpeg">
+            <p>If you can read this, your browser does not support the audio element.</p>
+        </audio>
+    
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+
+
+
+
+    </head>
+    <body ng-app="NoahMeislik">
+        <div id="particles-js"></div>
+        <div id="box">
+            <a class="glitch" data-glitch="Noah">Noah</a>
+        </div>
+        
+        <div id="box2">
+            <a href="bio.html" id="github">
+                <h1 id="bio" style="position:absolute;top:50%;left:50%;width:100px;height:100px;margin-top:20px;margin-left:0px;opacity:0.6;">Bio</h1>
+            </a>
+        </div>
+        
+        <div id="box3">
+            <a href="https://github.com/NoahM32" id="github">
+                <img src="resources/images/github.png" alt="Github" style="position:absolute;top:50%;left:50%;width:100px;height:100px;margin-top:-50px;margin-left:-50px;opacity:0.6;">
+            </a>
+        </div>
+        
+        <div id="box4">
+            <a href="http://steamcommunity.com/id/itsbastrix" id="steam">
+                <img src="resources/images/steam.png" alt="Steam" style="position:absolute;top:50%;left:50%;width:100px;height:100px;margin-top:-50px;margin-left:-50px;opacity:0.6;">
+            </a>
+        </div>
+        
+        <div id="box5">
+            <a href="mailto:noah.meislik@gmail.com" href="mail">
+                <img src="resources/images/mail.png" alt="Mail" style="position:absolute;top:50%;left:50%;width:100px;height:100px;margin-top:-50px;margin-left:-50px;opacity:0.6;">
+            </a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script>
+            particlesJS.load('particles-js', 'resources/particles/particles.json', function(){
+              console.log('particles.json loaded...');
+            });
+          </script>
+    </body>
+
+    <!-- Controllers -->
+    <script src="/app.js"></script>
+</html>

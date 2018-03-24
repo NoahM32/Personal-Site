@@ -17,14 +17,19 @@
 	<meta name="theme-color" content="#ffffff">
 	
 	<link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
-		<style>
+	<style>
 		body {
-			font-family: 'Contrail One', cursive;
-	}
-	
-	body {
-	background-color: #232323;
-	}
+				font-family: 'Contrail One', cursive;
+		}
+		
+		body {
+			background-color: #232323;
+		}
+
+		a:link{
+			color: white;
+		}
+
 	</style>
 	
 	<!-- <audio volume="0.5" autoplay>
@@ -36,14 +41,19 @@
 
 <body>
 
-<!-- particles.js container -->
-<div id="particles-js"></div>
+	<!-- particles.js container -->
+	<div id="particles-js"></div>
 	<div id="biobox">
 		<a class="glitch" data-glitch="Bio">Bio</a>
 	</div>
 	
 	<div id="biotext">
-		<p class="ptext">Papa bless! Check out some of my repositories on github. Javascript | NodeJS | Python |</p>
+		<p class="ptext">Papa bless! Check out some of my repositories on github. Javascript | NodeJS | Python</p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<p class="ptext">To see the code for this website, please click <a href="https://github.com/NoahM32/Personal-Site" target="_blank">here</a></p>
 	</div>
 
    <!-- <form id="input">
@@ -52,8 +62,14 @@
     </form> -->
 
 <!-- scripts -->
-<script src="./particles.js"></script>
-<script src="js/app.js"></script>
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script>
+		particlesJS.load('particles-js', 'resources/particles/particles.json', function(){
+		console.log('particles.json loaded...');
+		});
+
+	</script>
+	<script src="js/app.js"></script>
 
 
 

@@ -1,0 +1,29 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "description": "A personal website to be linked with noahmeislik.com",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahM32/Personal-Site.git"
+  },
+  "keywords": [
+    "personal",
+    "website"
+  ],
+  "author": "Noah Meislik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoahM32/Personal-Site/issues"
+  },
+  "homepage": "https://github.com/NoahM32/Personal-Site#readme"
+}
